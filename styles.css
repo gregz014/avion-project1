@@ -1,0 +1,22 @@
+body {
+  background-image: url('/images/chester\ bennington.jpg');
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.top-text {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.center-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+}
