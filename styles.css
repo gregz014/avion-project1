@@ -10,6 +10,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+h1 {
+  padding: 10px;
+}
 
 .top-text {
   display: flex;
