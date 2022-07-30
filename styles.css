@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cormorant+SC&display=swap');
+
 body {
   background-image: url('/images/chester\ bennington.jpg');
   height: 100%;
@@ -12,6 +16,19 @@ body {
   justify-content: flex-start;
   flex-direction: column;
   align-items: flex-end;
+  font-family: 'Cormorant SC', serif;
+  color: darksalmon;
+  top: 10px;
+  right: 10px;
+}
+
+.content-div {
+  color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: 'Amatic SC', cursive;
+  font-size: xx-large;
 }
 .center-text {
   display: flex;
@@ -19,4 +36,6 @@ body {
   flex-direction: column;
   align-items: center;
   font-size: large;
+  color: black;
+  font-family: 'Anton', sans-serif;
 }
